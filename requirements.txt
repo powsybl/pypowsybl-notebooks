@@ -4,21 +4,52 @@
 #
 #    pip-compile requirements.in
 #
+attrs==22.1.0
+    # via jsonschema
+fastjsonschema==2.16.2
+    # via nbformat
+importlib-resources==5.9.0
+    # via jsonschema
+jsonschema==4.16.0
+    # via nbformat
+jupyter-core==4.11.1
+    # via nbformat
+nbformat==5.6.0
+    # via -r requirements.in
 networkx==2.8.6
     # via pypowsybl
 numpy==1.23.3
     # via pandas
 pandas==1.5.0
     # via pypowsybl
+pkgutil-resolve-name==1.3.10
+    # via jsonschema
+plotly==5.10.0
+    # via -r requirements.in
 prettytable==3.4.1
     # via pypowsybl
+pycountry==22.3.5
+    # via -r requirements.in
 pypowsybl==0.18.0
     # via -r requirements.in
+pyrsistent==0.18.1
+    # via jsonschema
 python-dateutil==2.8.2
     # via pandas
 pytz==2022.2.1
     # via pandas
 six==1.16.0
     # via python-dateutil
+tenacity==8.1.0
+    # via plotly
+traitlets==5.4.0
+    # via
+    #   jupyter-core
+    #   nbformat
 wcwidth==0.2.5
     # via prettytable
+zipp==3.8.1
+    # via importlib-resources
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
