@@ -1,0 +1,53 @@
+<assembling>
+  <macroConnection id="MC_EventQuadripoleDisconnection">
+    <connection var1="event_state1_value" var2="@NAME@_state_value"/>
+  </macroConnection>
+  <macroConnection id="PhaseShifterToIMeasurement">
+    <connection var1="phaseShifter_iMonitored" var2="@NAME@_i1"/>
+  </macroConnection>
+  <macroConnection id="PhaseShifterToP">
+    <connection var1="phaseShifter_P" var2="@NAME@_P1"/>
+  </macroConnection>
+  <macroConnection id="PhaseShifterToTap">
+    <connection var1="phaseShifter_tap" var2="@NAME@_step"/>
+  </macroConnection>
+  <macroConnection id="PhaseShifterToAutomatonActivated">
+    <connection var1="phaseShifter_AutomatonExists" var2="@NAME@_disable_internal_tapChanger"/>
+  </macroConnection>
+  <singleAssociation id="Disconnect__BUS____8-BUS___10-2_AC">
+    <line name="_BUS____8-BUS___10-2_AC"/>
+  </singleAssociation>
+  <dynamicAutomaton id="Disconnect_Line" lib="EventQuadripoleDisconnection">
+    <macroConnect macroConnection="MC_EventQuadripoleDisconnection" id="Disconnect__BUS____8-BUS___10-2_AC"/>
+  </dynamicAutomaton>
+  <singleAssociation id="MESURE_I__BUS____5-BUS____6-1_PS">
+    <tfo name="_BUS____5-BUS____6-1_PS"/>
+  </singleAssociation>
+  <singleAssociation id="TAP__BUS____5-BUS____6-1_PS">
+    <tfo name="_BUS____5-BUS____6-1_PS"/>
+  </singleAssociation>
+  <singleAssociation id="AUTOMATON_EXISTS__BUS____5-BUS____6-1_PS">
+    <tfo name="_BUS____5-BUS____6-1_PS"/>
+  </singleAssociation>
+  <dynamicAutomaton id="DM__BUS____5-BUS____6-1_PS" lib="PhaseShifterI">
+    <macroConnect macroConnection="PhaseShifterToP" id="MESURE_I__BUS____5-BUS____6-1_PS"/>
+    <macroConnect macroConnection="PhaseShifterToIMeasurement" id="MESURE_I__BUS____5-BUS____6-1_PS"/>
+    <macroConnect macroConnection="PhaseShifterToTap" id="TAP__BUS____5-BUS____6-1_PS"/>
+    <macroConnect macroConnection="PhaseShifterToAutomatonActivated" id="AUTOMATON_EXISTS__BUS____5-BUS____6-1_PS"/>
+  </dynamicAutomaton>
+  <singleAssociation id="MESURE_I__BUS____5-BUS____7-2_PS">
+    <tfo name="_BUS____5-BUS____7-2_PS"/>
+  </singleAssociation>
+  <singleAssociation id="TAP__BUS____5-BUS____7-2_PS">
+    <tfo name="_BUS____5-BUS____7-2_PS"/>
+  </singleAssociation>
+  <singleAssociation id="AUTOMATON_EXISTS__BUS____5-BUS____7-2_PS">
+    <tfo name="_BUS____5-BUS____7-2_PS"/>
+  </singleAssociation>
+  <dynamicAutomaton id="DM__BUS____5-BUS____7-2_PS" lib="PhaseShifterI">
+    <macroConnect macroConnection="PhaseShifterToP" id="MESURE_I__BUS____5-BUS____7-2_PS"/>
+    <macroConnect macroConnection="PhaseShifterToIMeasurement" id="MESURE_I__BUS____5-BUS____7-2_PS"/>
+    <macroConnect macroConnection="PhaseShifterToTap" id="TAP__BUS____5-BUS____7-2_PS"/>
+    <macroConnect macroConnection="PhaseShifterToAutomatonActivated" id="AUTOMATON_EXISTS__BUS____5-BUS____7-2_PS"/>
+  </dynamicAutomaton>
+</assembling>

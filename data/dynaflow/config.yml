@@ -1,0 +1,15 @@
+dynaflow: 
+  homeDir: /home/jovyan/Dynaflow_notebook/dynaflow-launcher 
+  debug: true  
+
+dynaflow-default-parameters: 
+  svcRegulationOn: true
+  shuntRegulationOn: true 
+  automaticSlackBusOn: true 
+  vscAsGenerators: true
+  lccAsLoads: true 
+  dsoVoltageLevel: 63.0 
+  outputDir: /home/jovyan/tmp 
+  settingPath: /home/jovyan/Dynaflow_notebook/dynaflow-launcher/DB/setting.xml 
+  assemblingPath: /home/jovyan/Dynaflow_notebook/dynaflow-launcher/DB/assembling.xml 
+  timeStep: 2.6 
