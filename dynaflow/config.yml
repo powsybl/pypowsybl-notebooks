@@ -1,5 +1,5 @@
 dynaflow: 
-  homeDir: /home/jovyan/Dynaflow_notebook/dynaflow-launcher 
+  homeDir: /home/jovyan/dynaflow/dynaflow-launcher
   debug: true  
 
 dynaflow-default-parameters: 
@@ -10,6 +10,6 @@ dynaflow-default-parameters:
   lccAsLoads: true 
   dsoVoltageLevel: 63.0 
   outputDir: /home/jovyan/tmp 
-  settingPath: /home/jovyan/Dynaflow_notebook/dynaflow-launcher/DB/setting.xml 
-  assemblingPath: /home/jovyan/Dynaflow_notebook/dynaflow-launcher/DB/assembling.xml 
+  settingPath: /home/jovyan/dynaflow/dynaflow-launcher/DB/setting.xml
+  assemblingPath: /home/jovyan/dynaflow/dynaflow-launcher/DB/assembling.xml
   timeStep: 2.6 
