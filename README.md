@@ -6,5 +6,5 @@
 - Flow decomposition notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=flow_decomposition_visualization_demo.ipynb)
 - Network, load flow calculation, security analysis and sensitivity analysis [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_lf_security_sensitivity_analysis.ipynb)
 - Operator strategy notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=operator_strategy.ipynb)
-- Computation using Dynaflow : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/dynaflow-notebook?labpath=dynaflow/pypowsybl_dynaflow.ipynb)
+- Computation using Dynaflow : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=dynaflow/pypowsybl_dynaflow.ipynb)
 
