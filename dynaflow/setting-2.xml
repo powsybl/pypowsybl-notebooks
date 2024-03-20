@@ -1,0 +1,37 @@
+<setting>
+  <set id="Disconnect_Line">
+    <par type="DOUBLE" name="event_tEvent" value="30"/>
+    <par type="BOOL" name="event_disconnectOrigin" value="false"/>
+    <par type="BOOL" name="event_disconnectExtremity" value="true"/>
+  </set>
+  <set id="DM__BUS____5-BUS____6-1_PS">
+    <par name="phaseShifter_t1st" type="DOUBLE" value="20"/>
+    <par name="phaseShifter_tNext" type="DOUBLE" value="10"/>
+    <par name="running0" type="BOOL" value="true"/>
+    <par name="increaseTapToIncreaseValue" type="BOOL" value="true"/>
+    <par type="DOUBLE" name="phaseShifter_iMax" value="0.31"/>
+    <par type="DOUBLE" name="phaseShifter_iStop" value="0.29"/>
+    <reference componentId="@TFO@" name="phaseShifter_I0" origData="IIDM" origName="i1" type="DOUBLE"/>
+    <reference componentId="@TFO@" name="phaseShifter_P0" origData="IIDM" origName="i1" type="DOUBLE"/>
+    <reference componentId="@TFO@" name="phaseShifter_tap0" origData="IIDM" origName="tapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_tapMin" origData="IIDM" origName="lowTapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_tapMax" origData="IIDM" origName="highTapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_regulating0" origData="IIDM" origName="regulating" type="BOOL"/>
+    <reference componentId="@TFO@" name="phaseShifter_increasePhase" origData="IIDM" origName="increasePhase" type="INT"/>
+  </set>
+  <set id="DM__BUS____5-BUS____7-2_PS">
+    <par name="phaseShifter_t1st" type="DOUBLE" value="40"/>
+    <par name="phaseShifter_tNext" type="DOUBLE" value="20"/>
+    <par name="running0" type="BOOL" value="true"/>
+    <par name="increaseTapToIncreaseValue" type="BOOL" value="true"/>
+    <par type="DOUBLE" name="phaseShifter_iMax" value="0.31"/>
+    <par type="DOUBLE" name="phaseShifter_iStop" value="0.29"/>
+    <reference componentId="@TFO@" name="phaseShifter_I0" origData="IIDM" origName="i1" type="DOUBLE"/>
+    <reference componentId="@TFO@" name="phaseShifter_P0" origData="IIDM" origName="i1" type="DOUBLE"/>
+    <reference componentId="@TFO@" name="phaseShifter_tap0" origData="IIDM" origName="tapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_tapMin" origData="IIDM" origName="lowTapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_tapMax" origData="IIDM" origName="highTapPosition" type="INT"/>
+    <reference componentId="@TFO@" name="phaseShifter_regulating0" origData="IIDM" origName="regulating" type="BOOL"/>
+    <reference componentId="@TFO@" name="phaseShifter_increasePhase" origData="IIDM" origName="increasePhase" type="INT"/>
+  </set>
+</setting>
