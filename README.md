@@ -8,3 +8,5 @@
 - Operator strategy notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=operator_strategy.ipynb)
 - Computation using Dynaflow : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=dynaflow/pypowsybl_dynaflow.ipynb)
 - Sensitivity analysis and PTDF calculation [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=sensitivity_analysis.ipynb)
+- Pypowsybl-Jupyter widgets notebook : [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/pypowsybl_jupyter_demo?labpath=pypowsybl_jupyter_widgets_demo.ipynb)
+
