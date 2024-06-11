@@ -1,2 +1,3 @@
+# needed by pypowsybl-jupyter, for Binder
 anywidget
 
