@@ -1,0 +1,2 @@
+# needed as pypowsybl 1.5.1 (and below) is not working with numpy 2.0.0 (and above)
+numpy == 1.26.4
