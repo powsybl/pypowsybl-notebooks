@@ -1,0 +1,18 @@
+# copy to ~/.itools/config.yaml
+dynamic-simulation-default-parameters:
+  startTime: 0
+  stopTime: 30
+
+dynawaltz:
+  homeDir: PATH/TO/DYNAWO # root directory of dynawo installation
+  debug: true
+
+dynawaltz-default-parameters:
+  # All the pathes can be relative to the root directory
+  parametersFile: ./dynawaltz/models.par
+  network.parametersFile: ./dynawaltz/network.par
+  network.parametersId: "1"
+  solver.type: IDA
+  solver.parametersFile: ./dynawaltz/solver.par
+  solver.parametersId: "1"
+
