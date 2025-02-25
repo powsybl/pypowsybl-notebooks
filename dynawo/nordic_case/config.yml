@@ -1,10 +1,10 @@
 dynawo:
-    homeDir: /home/dynawo
+    homeDir: "WORKING_DIR/dynawo"
 
 dynawo-simulation-default-parameters:
-    parametersFile: Nordic.par
-    network.parametersFile: Network.par
+    parametersFile: "WORKING_DIR/Nordic.par"
+    network.parametersFile: "WORKING_DIR/Network.par"
     network.parametersId: "Network"
     solver.type: SIM
-    solver.parametersFile: Solvers.par
+    solver.parametersFile: "WORKING_DIR/Solver.par"
     solver.parametersId: "Solver"
