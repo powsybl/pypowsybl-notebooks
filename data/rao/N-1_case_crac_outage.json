@@ -16,10 +16,13 @@
   } ],
   "ra-usage-limits-per-instant" : [ ],
   "networkElementsNamePerId" : { },
-  "contingencies" : [ ],
+  "contingencies" : [ {
+    "id" : "Contingency DE2 DE3",
+    "networkElementsIds" : [ "DDE2AA1  DDE3AA1  1" ]
+  } ],
   "flowCnecs" : [ {
     "id" : "NNL2AA1  BBE3AA1  1 - preventive",
-    "name" : "NNL2AA1  BBE3AA1  1 - preventive",
+    "name" : "NL2 BE3 1 - preventive",
     "networkElementId" : "NNL2AA1  BBE3AA1  1",
     "operator" : null,
     "border" : "",
@@ -33,6 +36,23 @@
       "unit" : "megawatt",
       "min" : -410.0,
       "max" : 410.0,
+      "side" : 1
+    } ]
+  }, {
+    "id" : "NNL2AA1  BBE3AA1  1 - Contingency DE2 DE3 - outage",
+    "name" : "NL2 BE3 1 - Contingency DE2 DE3 - outage",
+    "networkElementId" : "NNL2AA1  BBE3AA1  1",
+    "operator" : null,
+    "instant" : "outage",
+    "contingencyId" : "Contingency DE2 DE3",
+    "optimized" : true,
+    "monitored" : false,
+    "iMax" : [ NaN ],
+    "nominalV" : [ 400.0 ],
+    "thresholds" : [ {
+      "unit" : "megawatt",
+      "min" : -450.0,
+      "max" : 450.0,
       "side" : 1
     } ]
   } ],
@@ -84,8 +104,8 @@
       "16" : 6.2276423729910535
     },
     "ranges" : [ {
-      "min" : -16,
-      "max" : 16,
+      "min" : -10,
+      "max" : 10,
       "rangeType" : "absolute"
     } ]
   } ],
