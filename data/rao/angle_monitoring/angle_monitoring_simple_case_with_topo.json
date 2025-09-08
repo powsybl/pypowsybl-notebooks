@@ -23,16 +23,44 @@
     "id" : "coL1",
     "name" : "coL1",
     "networkElementsIds" : [ "L1" ]
-  }, {
-    "id" : "coL1L2",
-    "name" : "coL1L2",
-    "networkElementsIds" : [ "L1", "L2" ]
-  }, {
-    "id" : "coL2",
-    "name" : "coL2",
-    "networkElementsIds" : [ "L2" ]
-  } ],
-  "flowCnecs" : [ ],
+  }],
+  "flowCnecs" : [ {
+    "id" : "cnec1 - preventive",
+    "name" : "cnec1 - preventive",
+    "networkElementId" : "L1",
+    "operator" : null,
+    "border" : "",
+    "instant" : "preventive",
+    "optimized" : true,
+    "monitored" : false,
+    "reliabilityMargin" : 0.0,
+    "nominalV" : [ NaN ],
+    "thresholds" : [ {
+      "unit" : "megawatt",
+      "min" : -5.0,
+      "max" : 100.0,
+      "side" : 2
+    } ]
+  },
+    {
+      "id" : "cnec1 - curative",
+      "name" : "cnec1 - curative",
+      "networkElementId" : "L1",
+      "contingencyId" : "coL1",
+      "operator" : null,
+      "border" : "",
+      "instant" : "curative",
+      "optimized" : true,
+      "monitored" : false,
+      "reliabilityMargin" : 0.0,
+      "nominalV" : [ NaN ],
+      "thresholds" : [ {
+        "unit" : "megawatt",
+        "min" : -5.0,
+        "max" : 5.0,
+        "side" : 2
+      } ]
+    } ],
   "angleCnecs" : [ {
     "id" : "acCur1",
     "name" : "acCur1",
