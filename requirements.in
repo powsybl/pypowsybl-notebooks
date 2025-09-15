@@ -1,2 +1,4 @@
 pypowsybl==1.12.0
 pypowsybl-jupyter==1.2.1
+plotly==6.3.0
+pycountry==24.6.1

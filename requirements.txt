@@ -4,7 +4,6 @@
 #
 #    pip-compile requirements.in
 #
-
 anywidget==0.9.18
     # via pypowsybl-jupyter
 asttokens==3.0.0
@@ -27,16 +26,22 @@ jupyterlab-widgets==3.0.15
     # via ipywidgets
 matplotlib-inline==0.1.7
     # via ipython
+narwhals==2.5.0
+    # via plotly
 networkx==3.4.2
     # via pypowsybl
 numpy==2.2.6
     # via pandas
+packaging==25.0
+    # via plotly
 pandas==2.3.2
     # via pypowsybl
 parso==0.8.5
     # via jedi
 pexpect==4.9.0
     # via ipython
+plotly==6.3.0
+    # via -r requirements.in
 prettytable==3.16.0
     # via pypowsybl
 prompt-toolkit==3.0.52
@@ -47,6 +52,8 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
+pycountry==24.6.1
+    # via -r requirements.in
 pygments==2.19.2
     # via ipython
 pypowsybl==1.12.0
