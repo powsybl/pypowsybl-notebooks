@@ -16,3 +16,16 @@
    - Active power time series: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_jupyter_time_series.ipynb)
 - Network modifications in node/breaker topology notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=network_modifications_node_breaker.ipynb)
 - Open-RAO notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=open_rao.ipynb)
+
+## Launching the notebooks locally
+Prerequisites:
+- Python 3.9+
+- Jupyter Notebook or Jupyter Lab
+
+Follow these steps:
+- Clone this repository.
+- Launch a terminal in the cloned repository.
+- Run `pip install -r requirements.txt`.
+- Launch jupyter notebook or jupyter lab.
+- Open the desired notebook.
+- Enjoy!
