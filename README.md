@@ -7,6 +7,7 @@
 - Network, load flow calculation, security analysis and sensitivity analysis [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_lf_security_sensitivity_analysis.ipynb)
 - Operator strategy notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=operator_strategy.ipynb)
 - Computation using Dynaflow: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=dynaflow/pypowsybl_dynaflow.ipynb)
+- Dynamic simulation using Dynawo: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_dynawo.ipynb)
 - Sensitivity analysis and PTDF calculation [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=sensitivity_analysis.ipynb)
 - Pypowsybl-Jupyter widgets notebooks:
    - Introduction [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_jupyter_widgets_demo.ipynb)

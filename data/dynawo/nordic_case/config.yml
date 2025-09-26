@@ -1,0 +1,10 @@
+dynawo:
+    homeDir: "WORKING_DIR/dynawo"
+
+dynawo-simulation-default-parameters:
+    parametersFile: "WORKING_DIR/data/dynawo/nordic_case/Nordic.par"
+    network.parametersFile: "WORKING_DIR/data/dynawo/nordic_case/Network.par"
+    network.parametersId: "Network"
+    solver.type: SIM
+    solver.parametersFile: "WORKING_DIR/data/dynawo/nordic_case/Solver.par"
+    solver.parametersId: "Solver"
