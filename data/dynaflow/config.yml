@@ -9,6 +9,4 @@ dynaflow-default-parameters:
   vscAsGenerators: true
   lccAsLoads: true 
   dsoVoltageLevel: 63.0 
-  settingPath: WORKING_DIR/data/dynaflow/setting-1.xml
-  assemblingPath: WORKING_DIR/data/dynaflow/assembling.xml
-  timeStep: 2.6 
+  timeStep: 2.6
