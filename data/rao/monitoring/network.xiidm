@@ -54,7 +54,16 @@
             <iidm:load id="LD2" loadType="UNDEFINED" p0="100.0" q0="50.0" node="1" p="100.0" q="50.0"/>
         </iidm:voltageLevel>
     </iidm:substation>
-    <iidm:line id="L1" r="3.9999091625213623" x="199.99879455566406" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="6" voltageLevelId1="VL1" node2="3" voltageLevelId2="VL2" p1="50.08402633666992" q1="29.201416015625" p2="-50.0" q2="-25.0"/>
-    <iidm:line id="L2" r="1.999968409538269" x="100.00008392333984" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="3" voltageLevelId1="VL3" node2="5" voltageLevelId2="VL2" p1="50.042015075683594" q1="27.1007080078125" p2="-50.0" q2="-25.0"/>
-    <iidm:line id="L3" r="99999999999999999" x="100.00008392333984" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="4" voltageLevelId1="VL3" node2="7" voltageLevelId2="VL2" p1="50.042015075683594" q1="27.1007080078125" p2="-50.0" q2="-25.0"/>
+    <iidm:line id="L1" r="3.9999091625213623" x="199.99879455566406" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="6" voltageLevelId1="VL1" node2="3" voltageLevelId2="VL2" p1="50.08402633666992" q1="29.201416015625" p2="-50.0" q2="-25.0">
+        <iidm:currentLimits1 permanentLimit="2000.0"/>
+        <iidm:currentLimits2 permanentLimit="2000.0"/>
+    </iidm:line>
+    <iidm:line id="L2" r="1.999968409538269" x="100.00008392333984" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="3" voltageLevelId1="VL3" node2="5" voltageLevelId2="VL2" p1="50.042015075683594" q1="27.1007080078125" p2="-50.0" q2="-25.0">
+        <iidm:currentLimits1 permanentLimit="2000.0"/>
+        <iidm:currentLimits2 permanentLimit="2000.0"/>
+    </iidm:line>
+    <iidm:line id="L3" r="99999999999999999" x="100.00008392333984" g1="0.0" b1="0.0" g2="0.0" b2="0.0" node1="4" voltageLevelId1="VL3" node2="7" voltageLevelId2="VL2" p1="50.042015075683594" q1="27.1007080078125" p2="-50.0" q2="-25.0">
+        <iidm:currentLimits1 permanentLimit="2000.0"/>
+        <iidm:currentLimits2 permanentLimit="2000.0"/>
+    </iidm:line>
 </iidm:network>
