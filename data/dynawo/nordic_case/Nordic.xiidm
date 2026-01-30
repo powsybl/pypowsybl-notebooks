@@ -11,7 +11,7 @@
     This file is part of Dynawo, an hybrid C++/Modelica open source suite of
     simulation tools for power systems.
 -->
-<iidm:network xmlns:iidm="http://www.powsybl.org/schema/iidm/1_4" id="Nordic32_corrige" caseDate="2019-07-30T16:39:00.000+02:00" forecastDistance="0" sourceFormat="NF">
+<iidm:network xmlns:iidm="http://www.powsybl.org/schema/iidm/1_4" id="Nordic32" caseDate="2019-07-30T16:39:00.000+02:00" forecastDistance="0" sourceFormat="NF">
     <iidm:substation id="_19fe9db0-63e5-4f87-a503-0867c0a01369" country="FR" tso="RTE">
         <iidm:voltageLevel id="1011_130" nominalV="130.0" highVoltageLimit="136.5" topologyKind="BUS_BREAKER">
             <iidm:busBreakerTopology>
