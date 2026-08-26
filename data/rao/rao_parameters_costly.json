@@ -1,7 +1,7 @@
 {
   "version": "3.3",
   "objective-function": {
-    "type": "SECURE_FLOW",
+    "type": "MIN_COST",
     "enforce-curative-security": false
   },
   "extensions": {
@@ -12,7 +12,7 @@
       "range-actions-optimization": {
         "max-mip-iterations": 5,
         "pst-sensitivity-threshold": 1.0E-6,
-        "pst-model": "CONTINUOUS",
+        "pst-model": "APPROXIMATED_INTEGERS",
         "hvdc-sensitivity-threshold": 1.0E-6,
         "injection-ra-sensitivity-threshold": 1.0E-6,
         "ra-range-shrinking": "DISABLED",
@@ -33,7 +33,7 @@
         "execution-condition": "DISABLED",
         "hint-from-first-preventive-rao": false
       },
-       "load-flow-and-sensitivity-computation": {
+      "load-flow-and-sensitivity-computation": {
         "load-flow-provider": "OpenLoadFlow",
         "sensitivity-provider": "OpenLoadFlow",
         "sensitivity-failure-overcost": 10000.0,
@@ -53,14 +53,17 @@
             "distributedSlack": true,
             "balanceType": "PROPORTIONAL_TO_GENERATION_P",
             "dcUseTransformerRatio": true,
-            "countriesToBalance": [],
+            "countriesToBalance": ["GR", "BE", "SK", "TR", "CH", "RS", "PL", "UA", "BG", "ES", "ME", "CZ", "HR", "AL", "RO", "HU", "AT", "FR", "PT", "DE", "MK", "BA", "SI", "IT", "NL"],
             "componentMode": "MAIN_CONNECTED",
             "hvdcAcEmulation": true
           }
         }
       },
-        "multi-threading" : {
-        "available-cpus" : 4
+      "multi-threading": {
+        "available-cpus": 4
+      },
+      "costly-min-margin-parameters": {
+        "shifted-violation-penalty": 1000.0
       }
     }
   }
