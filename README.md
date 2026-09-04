@@ -17,7 +17,7 @@
    - Active power time series: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=pypowsybl_jupyter_time_series.ipynb)
 - Network modifications in node/breaker topology notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=network_modifications_node_breaker.ipynb)
 - Open-RAO notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=open_rao.ipynb)
-- LoadFlow validation notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/feat/loadflow-validation-notebook?labpath=loadflow-validation.ipynb)
+- LoadFlow validation notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/powsybl/pypowsybl-notebooks/main?labpath=loadflow-validation.ipynb)
 
 ## Launching the notebooks locally
 Prerequisites:
